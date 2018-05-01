@@ -37,5 +37,7 @@
     "url-loader": "^1.0.1",
     "webpack": "^3.11.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.0.0"
+  }
 }

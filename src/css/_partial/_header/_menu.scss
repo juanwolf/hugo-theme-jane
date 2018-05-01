@@ -6,7 +6,7 @@
   .menu {
     float: right;
     padding-right: 15px;
-    font-family: $global-serif-font-family;
+    font-family: sans-serif;
 
     .menu-item {
       display: inline-block;
@@ -46,7 +46,7 @@
         visibility: visible;
         transition-delay: 0s; /* react immediately on hover */
       }
-      
+
       // @include underline-from-center;
     }
 
