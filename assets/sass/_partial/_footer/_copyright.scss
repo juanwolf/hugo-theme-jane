@@ -4,19 +4,26 @@
 
 .copyright {
   margin: $copyright-margin;
-  color: $dark-gray;
+  padding-bottom: $copyright-padding-bottom;
+  color: $white;
   text-align: center;
   font-family: $global-serif-font-family;
 
   .hexo-link,
   .theme-link {
-    color: $theme-color;
+    color: $white;
+    text-decoration: underline;
+
+    &:hover {
+        color: lighten($theme-color, 25%);
+    }
   }
 
   .copyright-year {
     display: block;
 
     .heart {
+      color: red;
       font-size: 14px;
     }
   }

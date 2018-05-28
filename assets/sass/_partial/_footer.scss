@@ -3,7 +3,8 @@
 // =============================
 
 .footer {
-  margin-top: $footer-margin-top;
+  padding-top: $footer-margin-top;
+  background-color: $theme-color;
 
   @import "_footer/social";
   @import "_footer/copyright";

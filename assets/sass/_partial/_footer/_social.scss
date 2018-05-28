@@ -2,7 +2,7 @@
 // Social
 // =============================
 
-// donot use social-links keyword,Otherwise it will be intercepted by Adblock. 
+// donot use social-links keyword,Otherwise it will be intercepted by Adblock.
 .icon-links {
   display: flex;
   justify-content: center;
@@ -11,13 +11,14 @@
 
   .iconfont {
     font-size: $social-icon-font-size;
+    color: $white;
 
     & + .iconfont {
       margin-left: $social-link-margin-left;
     }
 
     &:hover {
-      color: $theme-color;
+      color: lighten($theme-color, 25%);
 
       svg {
         fill: $theme-color;
