@@ -61,8 +61,12 @@
   font-size: 11px;
 }
 
-.menu a:hover {
-  color: $theme-color;
+.menu a {
+  color: white;
+
+  &:hover {
+    color: lighten($theme-color, 25%);
+  }
 }
 
 @include max-screen() {

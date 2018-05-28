@@ -10,7 +10,8 @@
   width: 100%;
   height: $mobile-navbar-height;
   background: $white;
-  box-shadow: 0px 2px 2px $gray;
+  background-color: $theme-color;
+  box-shadow: 0px 2px 0px $gray;
   text-align: center;
   transition: transform 300ms ease;
   z-index: 99;
@@ -25,13 +26,14 @@
 
     .logo {
       font-size: 22px;
+      color: $white;
       line-height: $mobile-navbar-height;
       font-family: $logo-font-family;
     }
   }
 
   .mobile-navbar-icon {
-    color: $theme-color;
+    color: $white;
     height: $mobile-navbar-height;
     width: $mobile-navbar-height;
     font-size: 24px;
@@ -45,26 +47,27 @@
 }
 
 .mobile-menu {
-  background-color: rgba($deputy-color, 0.5);
+  background-color: $theme-color;
 
   .mobile-menu-list {
     position: relative;
     list-style: none;
     margin-top: 50px;
     padding: 0;
-    border-top: 1px solid $deputy-color;
+    border-top: 1px solid lighten($theme-color, 25%);
 
     .mobile-menu-item {
       padding: 10px 30px;
-      border-bottom: 1px solid $deputy-color;
+      border-bottom: 1px solid lighten($theme-color, 25%);
     }
 
     a {
       font-size: 18px;
       font-family: $global-serif-font-family;
+      color: white;
 
       &:hover {
-        color: $theme-color;
+        color: lighten($theme-color, 25%);
       }
     }
   }

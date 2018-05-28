@@ -3,10 +3,12 @@
 // ==============================
 
 .header {
-  @include clearfix; 
+  @include clearfix;
 
   @import '_header/logo';
   @import '_header/menu';
+
+  background-color: $theme-color;
 }
 
 
