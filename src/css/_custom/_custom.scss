@@ -3,3 +3,10 @@
 // ==============================
 // You can override the variables in _variables.scss to customize the style
 $theme-color: #27ae60;
+
+$logo-font-family: sans-serif !default;
+
+$global-font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif !default;
+
+$global-serif-font-family: $global-font-family;
+
