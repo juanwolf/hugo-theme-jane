@@ -10,13 +10,14 @@
 
   .iconfont {
     font-size: $social-icon-font-size;
+    color: $white;
 
     & + .iconfont {
       margin-left: $social-link-margin-left;
-    } 
+    }
 
     &:hover {
-      color: $theme-color;
+      color: lighten($theme-color, 25%);
     }
   }
 }
